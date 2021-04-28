@@ -1,0 +1,35 @@
+body{
+    background-color: #ffffff;
+    font-family: sans-serif;
+}
+
+.appName{
+    background-color: #C4C4C4;
+    color: #053C8F;
+    font-weight: 800;
+    font-size: large;
+    margin-top: 20px;
+    margin-left: 450px;
+    width: fit-content;
+    height: 80px;
+    transition: width 2s height 4s;
+    padding: 20px 50px;
+    text-align: center;
+}
+.appName:hover{
+    width: 300px;
+    height: 150px;
+
+}
+.txt{
+    margin-left: 350px;
+    background-color: #EA8A19;
+    margin-top: 20px;
+    padding: 100px 120px;
+    width: max-content;
+}
+input{
+    width: 280px;
+    height: 50px;
+    /* border-radius: 20%; */
+}
